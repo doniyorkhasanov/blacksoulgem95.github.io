@@ -7,12 +7,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: tetraweb/php
+      image: ubuntu:latest
 
     steps:
       - uses: actions/checkout@v1
         with:
           fetch-depth: 1
+
+      - name: Install PHP and Node
+        run: |
+          apt install -y php php-mbstring php-cli php-bcmath php-json php-xml php-zip php-pdo php-common php-tokenizer php-mysql nodejs
+          npm i -g n
+          n lts
+
 
       - name: Install dependencies
         run: |
