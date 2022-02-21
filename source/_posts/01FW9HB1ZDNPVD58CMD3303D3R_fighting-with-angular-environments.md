@@ -23,6 +23,7 @@ Angular works through the magic of the <code  class="language-bash">src/environm
 If you deep dive into the configuration of our <code  class="language-bash">angular.json</code> file you will notice this:
 
 <pre class="language-json">
+<code class="language-json">
 "development": {
  "buildOptimizer": false,
  "optimization": false,
@@ -37,6 +38,7 @@ If you deep dive into the configuration of our <code  class="language-bash">angu
    }
  ]
 }
+</code>
 </pre>
 
 As you see, when we deploy for a specific environment, Angular copies it’s environment file and uses it to substitute with the original one, and will be taken by the rest of the application for processing.
@@ -47,14 +49,18 @@ Exactly! That’s the problem we’re going to solve right now.
 
 We will need two (dev) dependencies tho:
 <pre class="language-bash">
+<code class="language-bash">
 dotenv
 handlebars
+</code>
 </pre>
 
 you can simply install them through the following code:
 
 <pre class="language-bash">
+<code class="language-bash">
 npm i --save-dev dotenv handlebars
+</code>
 </pre>
 
 ## Creating our configuration template
@@ -62,11 +68,13 @@ npm i --save-dev dotenv handlebars
 In the <code class="language-bash">src/environments</code> folder we will create a <code class="language-bash">environment.hbs</code> file, with the following content:
 
 <pre class="language-javascript">
+<code class="language-javascript">
 export const environment = {
   production: {{PRODUCTION}},
   apiURL: '{{BACKEND_URL}}',
   authURL: '{{AUTH_URL}}'
 }
+</code>
 </pre>
 
 Obviously, feel free to adapt it to your needs, remember to refer to the handlebars documentation, which will come quite handy if you’re new to handlebars templating engine.
@@ -76,6 +84,7 @@ Obviously, feel free to adapt it to your needs, remember to refer to the handleb
 Now comes the fun part, in the root of your project, let’s create a <code class="langauge-bash">env-config.js</code> file that looks like the following:
 
 <pre class="language-javascript">
+<code class="language-javascript">
 require('dotenv')
 const path = require('path')
 const fs = require('fs')
@@ -94,6 +103,7 @@ const data = {
 }
 
 fs.writeFileSync(environmentFilePath, template(data), { encoding: 'utf-8' })
+</code>
 </pre>
 
 What does it do? Let’s go through it together.
@@ -110,6 +120,7 @@ And voilà! Our environment file is ready for our custom n-th environment!
 We need to create a new script in our <code  class="language-bash">package.json</code> file, let’s call it ‘config’.
 
 <pre class="language-javascript">
+<code class="language-javascript">
 {
    ...
    "scripts": {
@@ -119,11 +130,13 @@ We need to create a new script in our <code  class="language-bash">package.json<
    }
    ...
 }
+</code>
 </pre>
 
 and now, we need to refer to it every time we build or need to serve our application:
 
 <pre class="language-javascript">
+<code class="language-javascript">
 {
    ...
    "scripts": {
@@ -139,6 +152,7 @@ and now, we need to refer to it every time we build or need to serve our applica
    }
    ...
 }
+</code>
 </pre>
 
 And here, folks, is how we parametrize the environment of an Angular application through the environment variables of the machines that build it.
