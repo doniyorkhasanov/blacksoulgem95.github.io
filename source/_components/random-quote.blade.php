@@ -1,4 +1,6 @@
 <span id="random_quote"></span>
-<script>
-    document.onload = setTimeout(() => setRandomQuote())
-</script>
+@push("scripts")
+    <script>
+        setRandomQuote()
+    </script>
+@endpush

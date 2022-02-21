@@ -49,7 +49,6 @@
 
         @include('_nav.menu-responsive')
 
-        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
         <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
             @yield('body')
         </main>
@@ -70,6 +69,7 @@
             </ul>
         </footer>
 
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
         @stack('scripts')
     </body>
 </html>
