@@ -25,7 +25,12 @@ return [
             },
         ],
         'testimonials' => [
-            'path' => '/testimonial/{-company}/{-name}'
+            'path' => '/testimonial/{-company}/{-name}',
+            'sort' => '-name'
+        ],
+        'projects' => [
+            'path' => '/project/{-name}',
+            'sort' => '-date'
         ]
     ],
 
