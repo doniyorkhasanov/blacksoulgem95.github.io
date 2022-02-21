@@ -39,8 +39,6 @@ jobs:
 
       - name: deploy
         run: |
-          git checkout live
-          git pull
           if [ -d "./docs" ]; then rm -Rf ./docs; fi
           mv ./build_production ./docs
           git add ./docs
