@@ -6,8 +6,6 @@ name: deploy
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: ubuntu:latest
 
     steps:
       - uses: actions/checkout@v1
@@ -18,7 +16,7 @@ jobs:
         run: |
           export DEBIAN_FRONTEND=noninteractive
           apt update && apt upgrade -y
-          apt install -y php php-mbstring php-cli php-bcmath php-json php-xml php-zip php-pdo php-common php-tokenizer php-mysql curl
+          apt install -y php php-mbstring php-cli php-bcmath php-json php-xml php-zip php-pdo php-common php-tokenizer php-mysql curl git
           curl -sL https://deb.nodesource.com/setup_16.x | bash -
           apt install -y nodejs
           npm i -g n
@@ -37,5 +35,17 @@ jobs:
 
       - name: Build and deploy
         run: |
-          ./build.sh
+          ./vendor/bin/jigsaw build production
+          npm run prod
+          if [ -d "./docs" ]; then rm -Rf ./docs; fi
+          mv ./build_production ./docs
+          git checkout -b live
+          git add ./docs
+          git commit -m "Deployment of website - $(date)"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.DEPLOY_SECRET }}
+          branch: live
 
