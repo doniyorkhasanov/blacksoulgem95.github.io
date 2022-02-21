@@ -27,7 +27,11 @@
         @yield('content')
     </div>
 
-    <nav class="flex justify-between text-sm md:text-base">
+    <div class="border-b border-blue-200 mb-10 flex justify-center">
+        @include("_components.kofi")
+    </div>
+
+    <nav class="flex justify-between text-sm md:text-base mb-6">
         <div>
             @if ($next = $page->getNext())
                 <a href="{{ $next->getUrl() }}" title="Older Post: {{ $next->title }}">
@@ -44,4 +48,6 @@
             @endif
         </div>
     </nav>
+
+    @include("_components.comments")
 @endsection

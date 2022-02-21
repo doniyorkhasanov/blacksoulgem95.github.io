@@ -30,6 +30,8 @@ new Vue({
 require('./prism')
 require('./carousel')
 require('./randomQuote')
+window.Valine = require('valine');
+
 
 window.randomInt = (min, max) => {
     min = Math.ceil(min);
