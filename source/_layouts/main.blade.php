@@ -49,6 +49,8 @@
 
         @include('_nav.menu-responsive')
 
+        @yield('head')
+
         <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
             @yield('body')
         </main>
