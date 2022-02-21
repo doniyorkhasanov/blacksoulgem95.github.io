@@ -71,5 +71,6 @@
 
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
         @stack('scripts')
+        @include("_components.adsense")
     </body>
 </html>
