@@ -16,7 +16,7 @@ permalink: 404.html
             Always remember, Frodo, the page is trying to get back to its master. It wants to be found.
         </p>
         <p class="text-xl">
-            <button onclick="location.href = '/'" class="btn btn-blue">Go to the Shire</button>
+            <button onclick="location.href = '/'" class="btn btn-pink">Go to the Shire</button>
         </p>
     </div>
 @endsection

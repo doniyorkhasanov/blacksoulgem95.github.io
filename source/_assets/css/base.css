@@ -5,8 +5,8 @@ body {
 a {
     @apply font-semibold;
     @apply no-underline;
-    @apply text-blue-500;
-    @apply hover:text-blue-700;
+    @apply text-pink-500;
+    @apply hover:text-pink-700;
 }
 
 blockquote {
@@ -17,7 +17,7 @@ blockquote {
     @apply italic;
     @apply text-gray-800;
     @apply border-l-4;
-    @apply border-blue-400;
+    @apply border-pink-400;
 }
 
 code {
@@ -89,7 +89,7 @@ h6 {
 hr {
     @apply my-12;
     @apply border-b;
-    @apply border-blue-200;
+    @apply border-pink-200;
     @apply rounded-full;
 }
 
@@ -141,5 +141,5 @@ pre {
 
 ::selection {
     @apply text-white;
-    @apply bg-blue-400;
+    @apply bg-pink-400;
 }

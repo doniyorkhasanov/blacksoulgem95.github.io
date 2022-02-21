@@ -28,8 +28,8 @@
             Zone Aprilia - Anzio - Nettuno oppure Online - €20 ad ora, con fattura e pagamenti digitali.
         </p>
         <div class="text-xl flex justify-around w-full">
-            <div><a href="//go.italianprogrammer.pizza/cv" class="btn btn-blue">Curriculum</a></div>
-            <div><a href="#contatti" class="btn btn-blue">Contattami</a></div>
+            <div><a href="//go.italianprogrammer.pizza/cv" class="btn btn-pink">Curriculum</a></div>
+            <div><a href="#contatti" class="btn btn-pink">Contattami</a></div>
         </div>
     </div>
 

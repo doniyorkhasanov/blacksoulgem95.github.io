@@ -16,7 +16,7 @@
             If the page doesn't refresh in a few seconds, click the following button.
         </p>
         <p class="text-xl">
-            <button onclick="location.href = '{{$page->link}}'" class="btn btn-blue">Go</button>
+            <button onclick="location.href = '{{$page->link}}'" class="btn btn-pink">Go</button>
         </p>
         <script>
             setTimeout(() => location.href = '{{$page->link}}', 3000)

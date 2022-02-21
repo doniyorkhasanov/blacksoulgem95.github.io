@@ -18,17 +18,17 @@
             <a
                     href="{{ '/categories/' . $category }}"
                     title="View posts in {{ $category }}"
-                    class="inline-block bg-gray-300 hover:bg-blue-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
+                    class="inline-block bg-gray-300 hover:bg-pink-200 leading-loose tracking-wide text-gray-800 uppercase text-xs font-semibold rounded mr-4 px-3 pt-px"
             >{{ $category }}</a>
         @endforeach
     @endif
 
-    <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
+    <div class="border-b border-pink-200 mb-10 pb-4" v-pre>
         @yield('content')
 
         @if ($page->link)
             <p class="mt-6 text-2xl text-center">
-                <a target="_blank" class="btn btn-blue" href="{{$page->link}}">Visit project's website</a>
+                <a target="_blank" class="btn btn-pink" href="{{$page->link}}">Visit project's website</a>
             </p>
         @endif
     </div>

@@ -9,7 +9,7 @@
                 <div class="sm:text-center lg:text-left">
                     <h1 class="tracking-tight font-extrabold text-gray-900">
                         <span class="block xl:inline">Your friendly neighbourhood</span>
-                        <span class="block text-indigo-600 xl:inline">Software Engineer</span>
+                        <span class="block text-pink-600 xl:inline">Software Engineer</span>
                     </h1>
                     <p class="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                         My name is Sofia, grown between Italy and Scotland and learnt the hard way the art of coding.
@@ -18,10 +18,10 @@
                     </p>
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <div class="rounded-md shadow">
-                            <a href="/about" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 hover:text-white md:py-4 md:text-lg md:px-10"> About </a>
+                            <a href="/about" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700 hover:text-white md:py-4 md:text-lg md:px-10"> About </a>
                         </div>
                         <div class="mt-3 sm:mt-0 sm:ml-3">
-                            <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"> Contact </a>
+                            <a href="/contact" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-pink-700 bg-pink-100 hover:text-pink-600 hover:bg-pink-200 md:py-4 md:text-lg md:px-10"> Contact </a>
                         </div>
                     </div>
                 </div>
