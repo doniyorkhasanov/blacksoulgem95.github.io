@@ -26,4 +26,6 @@ new Vue({
     },
 }).$mount('#vue-search');
 
-require('./prism.js')
+require('./prism')
+require('./carousel')
+require('@fortawesome/fontawesome-free/js/all')

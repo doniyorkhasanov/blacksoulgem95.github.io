@@ -24,6 +24,9 @@ return [
                 });
             },
         ],
+        'testimonials' => [
+            'path' => '/testimonial/{-company}/{-name}'
+        ]
     ],
 
     // helpers

@@ -9,6 +9,6 @@
 @import 'blog';
 @import "buttons";
 @import "prism";
+@import "carousel";
 
 @import 'tailwindcss/utilities';
-
