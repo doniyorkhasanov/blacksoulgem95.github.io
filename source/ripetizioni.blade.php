@@ -2,7 +2,7 @@
 
 @section('body')
     <div class="flex flex-col items-center text-gray-700 mt-32 mb-10">
-        <h1 class="text-6xl font-light leading-none mb-2">Ripetizioni</h1>
+        <h1 class="md:text-6xl font-light leading-none mb-2">Ripetizioni</h1>
 
         {{--        <h2 class="text-3xl">Informatica, Sistemi, Inglese, Programazione.</h2>--}}
         <h2 class="text-3xl text-center">Lead Software Developer impartisce lezioni di Informatica teorica,
