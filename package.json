@@ -7,7 +7,7 @@
         "new:post": "node new_post.mjs",
         "new:category": "node new_category.mjs"
     },
-    "devDependencies": {
+    "dependencies": {
         "@octokit/auth-basic": "^1.4.8",
         "@octokit/rest": "^18.12.0",
         "@types/clear": "^0.1.2",
