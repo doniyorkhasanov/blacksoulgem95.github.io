@@ -31,16 +31,19 @@ jobs:
           php -r "if (hash_file('sha384', 'composer-setup.php') === '906a84df04cea2aa72f40b5f787e49f22d4c2f19492ac310e8cba5b96ac8b64115ac402c8cd292b8a03482574915d1a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
           php composer-setup.php
           php -r "unlink('composer-setup.php');"
-          php composer.phar update
-          php composer.phar install
+          php composer.phar update --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
+          php composer.phar install --no-ansi --no-interaction --no-scripts --no-suggest --no-progress --prefer-dist
           npm install
+
+      - name: Build the site
+        run: npm run production
 
       - name: Build and deploy
         run: |
-          npm run dev
-          ./vendor/bin/jigsaw build production
           npm run prod
           if [ -d "./docs" ]; then rm -Rf ./docs; fi
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHubActions BOT"
           mv ./build_production ./docs
           git checkout -b live
           git add ./docs
