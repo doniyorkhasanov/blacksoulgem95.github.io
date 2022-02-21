@@ -31,6 +31,9 @@ return [
         'projects' => [
             'path' => '/project/{-name}',
             'sort' => '-date'
+        ],
+        'socials' => [
+            'sort' => 'order'
         ]
     ],
 
