@@ -18,6 +18,7 @@ jobs:
         run: |
           export DEBIAN_FRONTEND=noninteractive
           apt update && apt upgrade -y
+          curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
           apt install -y php php-mbstring php-cli php-bcmath php-json php-xml php-zip php-pdo php-common php-tokenizer php-mysql nodejs
           npm i -g n
           n lts
