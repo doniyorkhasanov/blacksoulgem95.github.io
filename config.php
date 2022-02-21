@@ -34,7 +34,8 @@ return [
         ],
         'socials' => [
             'sort' => 'order'
-        ]
+        ],
+        'redirects'
     ],
 
     // helpers
