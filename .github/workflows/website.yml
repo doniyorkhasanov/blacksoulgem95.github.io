@@ -37,6 +37,7 @@ jobs:
 
       - name: Build and deploy
         run: |
+          npm run dev
           ./vendor/bin/jigsaw build production
           npm run prod
           if [ -d "./docs" ]; then rm -Rf ./docs; fi
