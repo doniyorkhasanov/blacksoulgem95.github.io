@@ -68,7 +68,7 @@
                 <li>
                     @foreach($socials as $social)
 
-                        <a href="{{$social->url}}" target="_blank" class=" @if(!$loop->last) mr-3 @endif ">
+                        <a href="{{$social->url}}" target="_blank" class=" @if(!$loop->last) mr-3 @endif text-2xl md:text-base ">
                             <i class="{{$social->icon}}" aria-label="{{$social->title}}"></i>
                         </a>
                     @endforeach
