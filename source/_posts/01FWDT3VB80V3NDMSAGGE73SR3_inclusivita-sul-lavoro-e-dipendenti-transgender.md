@@ -10,7 +10,7 @@ tags: [trans,transgender,nonbinary,lavoro,contratto,assunzione,hr]
 categories: [italian,trans-working,workplace-policies]
 excerpt: Sei un responsabile HR e stai assumendo un nuovo dipendente che è una persona Trans* e/o Non-Binary e ti chiedi come gestire la situazione, ecco alcuni consigli pratici e veloci per rendere il tutto più facile possibile!
 description: Assumere dipendenti transgender e fare in modo che siano felici, una breve guida
-featured: false
+featured: true
 language: Italian
 cover_image: /assets/img/01FWDT3VB80V3NDMSAGGE73SR3/cover.png
 ---
