@@ -44,7 +44,7 @@ Is also important to provide **gender-neutral bathrooms** where anyone can enter
 this will not only help gender non-conforming and gender-questioning people, but also help **eradicate the fear of a predator being in a bathroom**.
 
 If there's space, consider also adding a **shower room** to allow people who come with bicycles, 
-walking or other body-intensive activity, can take a shower and change their clothes before starting to work.
+walking or other body-intensive activity, to take a shower and change their clothes before starting to work.
 
 ## Discrimination policy
 
