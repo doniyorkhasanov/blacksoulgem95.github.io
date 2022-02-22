@@ -141,13 +141,13 @@ Iniziai finalmente a sentirmi, ancora di più, me stessa.
 #### Fonti
 
 <a id="ref_1"></a>
-\[1]: https://www.scientificamerican.com/article/sex-redefined-the-idea-of-2-sexes-is-overly-simplistic1/
+\[1]: [Scientific American - Sex Redefined: The Idea of 2 Sexes Is Overly Simplistic](https://www.scientificamerican.com/article/sex-redefined-the-idea-of-2-sexes-is-overly-simplistic1/)
 
 <a id="ref_2"></a>
 \[2]: Chapter 3 — Gender, Sex, and Sexualities: Psychological Perspectives — by Nancy Kimberly Dess, Jeanne Marecek, Leslie C. Bell; Oxford University — ISBN [9780190658540](https://amzn.to/32cROXr)
 
 <a id="ref_3"></a>
-\[3]: https://www.mayoclinic.org/healthy-lifestyle/childrens-health/in-depth/children-and-gender-identity/art-20266811
+\[3]: [Mayo Clinic - Children and gender identity: Supporting your child](https://www.mayoclinic.org/healthy-lifestyle/childrens-health/in-depth/children-and-gender-identity/art-20266811)
 
 Originariamente pubblicato il 22 Novembre 2021 su [Brave di Metropolitan Magazine](https://metropolitanmagazine.it/essere-transgender-cosa-significa-la-mia-storia/).
 

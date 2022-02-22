@@ -34,9 +34,9 @@
     </div>
 
     <div class="mt-6 flex flex-col items-center justify-center">
+        <a id="contatti"></a>
         <div data-tf-widget="hDb5wFYC" data-tf-iframe-props="title=Contatti - Ripetizioni" data-tf-medium="snippet"
              style="width:100%;height:60vh;"></div>
         <script src="//embed.typeform.com/next/embed.js"></script>
-        <a id="contatti"></a>
     </div>
 @endsection
