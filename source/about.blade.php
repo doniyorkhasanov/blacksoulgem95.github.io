@@ -21,11 +21,14 @@ description: A little bit about the site
 
     <p class="mb-6">I was 13 when I've started writing my first lines of code, customising game-modes for GTA SA:MP, and writing exercises in Pascal; then, going to the Istituto Tecnico Industriale (the Italian equivalent of the Scottish Advanced Highers), I've started studying CompSci more in-depth, studying Intel 8086 ASM, Procedural C and a bit of PHP, XHTML and CSS.</p>
 
-    <p class="mb-6 flex justify-around"><a target="_blank" href="//go.italianprogrammer.pizza/linkedin" class="btn btn-pink">Check out my LinkedIn</a> <a target="_blank" href="//go.italianprogrammer.pizza/cv" class="btn btn-pink">Check out my Resume</a> </p>
+    <p class="mb-6 flex justify-around flex-col md:flex-row gap-3">
+        <a target="_blank" href="//go.italianprogrammer.pizza/linkedin" class="btn btn-pink">Check out my LinkedIn</a>
+        <a target="_blank" href="//go.italianprogrammer.pizza/cv" class="btn btn-pink">Check out my Resume</a>
+    </p>
 
     <h2 class="mt-6 mb-6">Testimonials</h2>
 
     <div class="mb-6">
-        @include("_components.carousel")
+        @include("_components.testimonial-carousel")
     </div>
 @endsection
