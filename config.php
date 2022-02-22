@@ -5,8 +5,8 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Sofia Vicedomini',
-    'siteDescription' => 'The Italian Programmer',
+    'siteName' => 'Sofia Vicedomini - The Italian Programmer',
+    'siteDescription' => 'My name is Sofia, grown between Italy and Scotland and learnt the hard way the art of coding. For me to code is not just a job, is a full time passion.',
     'siteAuthor' => 'Sofia Vicedomini',
 
     // collections
