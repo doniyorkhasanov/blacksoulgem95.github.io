@@ -1,6 +1,9 @@
 <div class="flex flex-col mb-4">
     <p class="text-gray-700 font-medium my-2">
-        {{ $project->getDate()->format('F j, Y') }}
+        <span>Since {{ $project->getDate()->format('F, Y') }}</span>
+        @if ($project->end_date)
+            <span>to {{date('F, Y', $project->end_date)}}</span>
+        @endif
     </p>
 
     <h2 class="text-3xl mt-0">

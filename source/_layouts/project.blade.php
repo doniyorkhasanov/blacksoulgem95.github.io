@@ -11,7 +11,12 @@
 
     <h1 class="leading-none mb-2">{{ $page->name }}</h1>
 
-    <p class="text-gray-700 text-xl md:mt-0">Since {{ date('F j, Y', $page->date) }}</p>
+    <p class="text-gray-700 text-xl md:mt-0">
+        <span>Since {{ date('F, Y', $page->date) }}</span>
+        @if ($page->end_date)
+            <span>to {{ date('F, Y', $page->end_date) }}</span>
+        @endif
+    </p>
 
     @if ($page->categories)
         @foreach ($page->categories as $i => $category)
