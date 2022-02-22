@@ -30,9 +30,11 @@
 }
 
 .swiper-scrollbar {
-    @apply bg-pink-200 !important;
+    /*@apply bg-pink-200 !important;*/
+    display: none !important;
 }
 
 .swiper-scrollbar-drag {
-    @apply bg-pink-400 !important;
+    /*@apply bg-pink-400 !important;*/
+    display: none !important;
 }
