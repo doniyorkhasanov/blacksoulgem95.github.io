@@ -20,3 +20,19 @@
     font-weight: 700;
     font-size: 14px;
 }
+
+.swiper-button-next, .swiper-button-prev {
+    @apply text-pink-600 !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-pink-600 !important;
+}
+
+.swiper-scrollbar {
+    @apply bg-pink-200 !important;
+}
+
+.swiper-scrollbar-drag {
+    @apply bg-pink-400 !important;
+}
