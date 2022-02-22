@@ -2,7 +2,7 @@
 extends: _layouts.project
 name: Una Sporca Storia
 description: Tabletop RPG Management System & Character Creation
-date: 2022-01-01T18:00:00.000Z
+date: 2021-12-12T18:00:00.000Z
 link: https://UnaSporcaStoria.com
 ---
 
