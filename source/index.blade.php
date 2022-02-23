@@ -17,7 +17,7 @@
 
     <h2 class="text-center">Latest posts</h2>
 
-    @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
+    @foreach ($posts->take(6)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">
             @foreach ($row as $post)
                 <div class="w-full md:w-1/2 md:mx-6">
