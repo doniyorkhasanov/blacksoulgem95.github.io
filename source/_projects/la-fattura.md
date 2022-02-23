@@ -6,4 +6,4 @@ date: 2022-02-01T18:00:00.000Z
 link: https://github.com/blacksoulgem95/la-fattura
 ---
 
-FOSS Invoicing System for Italian Businesses
+FOSS Invoicing System for the Italian market, including the eInvoicing (Fatturazione Elettronica) functionality
