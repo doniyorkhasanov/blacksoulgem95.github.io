@@ -15,7 +15,7 @@ language: en_GB
 cover_image: /assets/img/01FWEWXQV70VA2XR5CSPYMYYX5/cover.png
 ---
 
-Jigsaw is a new tool designed for generating static websites with blade templates, here's a honest review for this piece
+Jigsaw is a new tool designed for generating static websites with blade templates, here's an honest review of this piece
 of software.
 
 Fun fact, this blog is built on top of Jigsaw, so all my experience with it is well documented on
