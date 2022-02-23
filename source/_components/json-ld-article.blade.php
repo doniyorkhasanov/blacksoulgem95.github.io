@@ -3,7 +3,7 @@
    "@context":"https://schema.org",
    "@type":"Article",
    "headline":"{{$article->title}}",
-   "image":"{{$article->cover_image}}",
+   "image":"{{$article->baseUrl.$article->cover_image}}",
    "author":"{{$article->author}}",
    "keywords":"{{implode(' ', $article->tags)}}",
    "publisher":{

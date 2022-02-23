@@ -5,12 +5,16 @@
 @endphp
 
 @push('meta')
-    <meta property="og:title" content="{{ $page->title }}"/>
     <meta property="og:type" content="article"/>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@blacksoulgem95" />
+    <meta name="twitter:creator" content="@blacksoulgem95" />
+
     @if ($page->cover_image)
-        <meta property="og:image" content="{{$page->cover_image}}"/>
+        <meta property="og:image" content="{{$article->baseUrl.$page->cover_image}}"/>
     @endif
     <meta property="og:description" content="{{$page->description}}">
+
     <x-json-ld-article :article="$page"></x-json-ld-article>
 @endpush
 
