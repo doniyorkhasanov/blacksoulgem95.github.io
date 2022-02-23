@@ -11,7 +11,7 @@
     <meta name="twitter:creator" content="@blacksoulgem95" />
 
     @if ($page->cover_image)
-        <meta property="og:image" content="{{$article->baseUrl.$page->cover_image}}"/>
+        <meta property="og:image" content="{{$page->baseUrl.$page->cover_image}}"/>
     @endif
     <meta property="og:description" content="{{$page->description}}">
 
