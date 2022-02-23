@@ -7,11 +7,15 @@
 @section('body')
 
     <div class="block mb-6">
+        <h1 class="text-center mb-0">Featured</h1>
         @include('_components.featured-carousel')
     </div>
     <hr class="block w-full border-b mt-6 mb-6">
 
     {{--    @include('_components.newsletter-signup')--}}
+
+
+    <h2 class="text-center">Latest posts</h2>
 
     @foreach ($posts->where('featured', false)->take(6)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">
