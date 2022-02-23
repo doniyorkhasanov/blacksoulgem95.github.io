@@ -11,7 +11,7 @@ categories: [configuration,it-sysadmin,english]
 excerpt: One of the most awesome tools I’ve found in my side job as WebMaster, is imapsync, a fantastic tool to migrate IMAP mailboxes across different providers. 
 description: imapSync is a tool to syncronise two IMAP accounts 
 featured: false
-language: english
+language: en_GB
 ---
 One of the most awesome tools I’ve found in my side job as WebMaster, is [imapsync](https://imapsync.lamiral.info/), a
 fantastic tool to migrate IMAP mailboxes across different providers.

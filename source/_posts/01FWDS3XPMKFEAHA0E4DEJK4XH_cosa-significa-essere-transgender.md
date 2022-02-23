@@ -11,7 +11,7 @@ categories: [italian,personal-life]
 excerpt: Spesso, in Italia, c’è tanta confusione con i termini transgender, transessuale, non binario, identità di genere e “gender”; così tanta che alcune forze politiche ne hanno approfittato per giustificare la negazione di diritti a una delle minoranze più martoriate del nostro pianeta.
 description: Essere transgender - cosa significa, la mia storia
 featured: true
-language: Italian
+language: it_IT
 cover_image: /assets/img/01FWDS3XPMKFEAHA0E4DEJK4XH/cover.jpeg
 ---
 Spesso, in Italia, c’è tanta confusione con i termini transgender, transessuale, non binario, identità di genere e “gender”;

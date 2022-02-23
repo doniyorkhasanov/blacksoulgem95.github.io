@@ -6,9 +6,13 @@
 
 @push('meta')
     <meta property="og:type" content="article"/>
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@blacksoulgem95" />
     <meta name="twitter:creator" content="@blacksoulgem95" />
+    <meta name="twitter:title" content="{{$page->title}}" />
+    <meta name="twitter:description" content="{{$page->description}}" />
+
+    <meta property="og:locale" content="{{$page->language}}" />
 
     @if ($page->cover_image)
         <meta property="og:image" content="{{$page->baseUrl.$page->cover_image}}"/>

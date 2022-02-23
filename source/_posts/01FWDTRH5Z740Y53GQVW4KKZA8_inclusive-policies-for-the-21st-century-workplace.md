@@ -11,7 +11,7 @@ categories: [english,trans-working,workplace-policies]
 excerpt: In the modern era more than ever there is the need to write inclusive policies to help the workforce feel safe in the working environment. Let me share a few "draft" policies that should be embraced by all companies worldwide.
 description: In the modern era more than ever there is the need to write inclusive policies to help the workforce feel safe in the working environment.
 featured: true
-language: English
+language: en_GB
 cover_image: /assets/img/01FWDTRH5Z740Y53GQVW4KKZA8/cover.jpeg
 ---
 In the modern era more than ever there is the need to write inclusive policies to help the workforce feel safe in the working environment.

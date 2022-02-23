@@ -11,7 +11,7 @@ categories: [italian,opinions,personal-life]
 excerpt: Il 24 Novembre 2021, mi hanno convocata in Mediaset a Zona Bianca di Rete 4, per parlare dei diritti e delle discriminazioni delle persone transgender in Italia.
 description: Sono stata convocata in Mediaset per parlare della Transgender Freedom March e dei diritti delle persone Trans, come è andata?
 featured: true
-language: Italian
+language: it_IT
 cover_image: /assets/img/01FWDVM0RCTBZJKNEHV1A1P6AC/img_01.png
 ---
 

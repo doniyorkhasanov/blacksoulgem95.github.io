@@ -11,7 +11,7 @@ categories: [english,software-development]
 excerpt: Angular has a fantastic way of setting configurations for our application if our application has only one company as its users. But, what if we need to deploy our application, with different variables each time?
 description: How to properly configure an Angular application for SAAS solutions
 featured: false
-language: english
+language: en_GB
 ---
 
 Angular has a fantastic way of setting configurations for our application if our application has only one company as its users. But, what if we need to deploy our application, with different variables each time? (Like in a white-labeled SaaS deployment or on-prem deployment).

@@ -11,7 +11,7 @@ categories: [italian]
 excerpt: La vostra azienda è super inclusive e sulla vostra TicketRestaurant ha messo già il vostro nome di elezione, fantastico! Ma ora, c'è da scaricare la app di Edenrend per TicketRestaurant
 description: Impostare il nome di Elezione sulla app TicketRestaurant
 featured: false
-language: italian
+language: it_IT
 cover_image: /assets/img/01FW9JCRS63ABAVK7PF7BXPCWR/cover.png
 ---
 La vostra azienda è super inclusive e sulla vostra TicketRestaurant ha 

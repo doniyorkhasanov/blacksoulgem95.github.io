@@ -11,7 +11,7 @@ categories: [english,opinions,software-development]
 excerpt: Jigsaw is a new tool designed for generating static websites with blade templates, here's an honest review for this piece of software.
 description: Jigsaw, a tool to generate static website using Blade Templates
 featured: false
-language: English
+language: en_GB
 cover_image: /assets/img/01FWEWXQV70VA2XR5CSPYMYYX5/cover.png
 ---
 
