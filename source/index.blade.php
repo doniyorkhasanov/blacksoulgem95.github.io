@@ -34,4 +34,12 @@
             <hr class="w-full border-b mt-2 mb-6">
         @endif
     @endforeach
+
+    @push('scripts')
+        <script>
+            if (window.document.documentMode)
+                location.href = '/ieuser'
+
+        </script>
+    @endpush
 @stop
