@@ -82,7 +82,10 @@
         </li>
 
         <li>
-            @include("_components.privacy-policy-button")
+            <div class="flex-col flex gap-2">
+                @include("_components.privacy-policy-button")
+                @include("_components.cookie-policy-button")
+            </div>
         </li>
     </ul>
 </footer>
