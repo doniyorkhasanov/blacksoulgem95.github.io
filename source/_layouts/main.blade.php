@@ -89,9 +89,7 @@
 
 <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 @stack('scripts')
-@if (isset($page->baseUrl))
-    @include("_components.adsense")
-    @include("_components.analytics.gtag")
-@endif
+@include("_components.adsense")
+@include("_components.analytics.gtag")
 </body>
 </html>
