@@ -17,6 +17,14 @@ pagination:
 
         @if ($post != $pagination->items->last())
             <hr class="border-b my-6">
+            @if($loop->iteration % 2 == 0)
+
+                <div class="mb-4">
+                    <x-ads.article></x-ads.article>
+                </div>
+
+                <hr class="border-b my-6">
+            @endif
         @endif
     @endforeach
 
