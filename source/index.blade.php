@@ -17,7 +17,7 @@
 
     <h2 class="text-center">Latest posts</h2>
 
-    @foreach ($posts->take(6)->chunk(2) as $row)
+    @foreach ($posts->take(8)->chunk(2) as $row)
         <div class="flex flex-col md:flex-row md:-mx-6">
             @foreach ($row as $post)
                 <div class="w-full md:w-1/2 md:mx-6">
@@ -32,6 +32,14 @@
 
         @if (! $loop->last)
             <hr class="w-full border-b mt-2 mb-6">
+            @if($loop->iteration % 2 == 0)
+
+                <div class="mb-4">
+                    <x-ads.article></x-ads.article>
+                </div>
+
+                <hr class="border-b my-6">
+            @endif
         @endif
     @endforeach
 
