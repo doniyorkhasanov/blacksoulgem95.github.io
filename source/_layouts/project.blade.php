@@ -30,7 +30,7 @@
 
     <div class="border-b border-pink-200 mb-10 pb-4" v-pre>
         @yield('content')
-
+        <x-ads.article></x-ads.article>
         @if ($page->link)
             <p class="mt-6 text-2xl text-center">
                 <a target="_blank" class="btn btn-pink" href="{{$page->link}}">Visit project's website</a>

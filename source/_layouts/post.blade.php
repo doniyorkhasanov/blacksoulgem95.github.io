@@ -45,6 +45,8 @@
         @yield('content')
     </div>
 
+    <x-ads.article></x-ads.article>
+
     <div class="border-b border-pink-200 mb-10 flex justify-center">
         @include("_components.kofi")
     </div>
