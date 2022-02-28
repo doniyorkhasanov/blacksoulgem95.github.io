@@ -25,7 +25,8 @@
             nelle prime lezioni posso aiutarti a configurarlo.
         </p>
         <p class="text-xl text-center">
-            Zone Aprilia - Anzio - Nettuno oppure Online - €20 ad ora, con fattura e pagamenti digitali.
+            Zone Milano - Aprilia (LT) - Anzio (RM) - Nettuno (RM) oppure Online -
+            €20 ad ora, con fattura e pagamenti digitali.
         </p>
         <div class="text-xl flex justify-around w-full">
             <div><a href="//go.italianprogrammer.pizza/cv" class="btn btn-pink">Curriculum</a></div>
