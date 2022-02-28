@@ -1,4 +1,29 @@
+---
+title: Ripetizioni
+description: Ripetizioni di Informatica, Programmazione, Inglese
+language: it_IT
+cover_image: /img/ripetizioni.jpg
+---
+
 @extends('_layouts.main')
+
+@push('meta')
+    <meta property="og:type" content="page"/>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@blacksoulgem95" />
+    <meta name="twitter:creator" content="@blacksoulgem95" />
+    <meta name="twitter:title" content="{{$page->title}}" />
+    <meta name="twitter:description" content="{{$page->description}}" />
+
+    <meta property="og:locale" content="{{$page->language}}" />
+
+    @if ($page->cover_image)
+        <meta property="og:image" content="{{$page->baseUrl.$page->cover_image}}"/>
+    @endif
+    <meta property="og:description" content="{{$page->description}}">
+
+@endpush
+
 
 @section('body')
     <div class="flex flex-col items-center text-gray-700 mt-32 mb-10">
