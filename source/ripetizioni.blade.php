@@ -2,7 +2,7 @@
 title: Ripetizioni
 description: Ripetizioni di Informatica, Programmazione, Inglese
 language: it_IT
-cover_image: /img/ripetizioni.jpg
+cover_image: /assets/img/ripetizioni.jpg
 ---
 
 @extends('_layouts.main')
