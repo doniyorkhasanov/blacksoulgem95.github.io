@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 17px;
 }
@@ -32,12 +36,18 @@ code.hljs {
     @apply p-0;
     @apply bg-transparent;
 
-    & .hljs-comment,
-    & .hljs-keyword,
-    & .hljs-meta {
-        @apply font-normal;
-        @apply not-italic;
-    }
+&
+.hljs-comment,
+
+&
+.hljs-keyword,
+
+&
+.hljs-meta {
+    @apply font-normal;
+    @apply not-italic;
+}
+
 }
 
 h1,
@@ -51,9 +61,11 @@ h6 {
     @apply text-gray-900;
     @apply leading-tight;
 
-    &:first-child {
-        @apply mt-0;
-    }
+&
+:first-child {
+    @apply mt-0;
+}
+
 }
 
 h1 {
@@ -94,11 +106,16 @@ hr {
 }
 
 li {
-    & ul,
-    & ol {
-        @apply ml-8;
-        @apply my-0;
-    }
+
+&
+ul,
+
+&
+ol {
+    @apply ml-8;
+    @apply my-0;
+}
+
 }
 
 ol,
@@ -117,9 +134,9 @@ ul {
 p {
     @apply my-3;
 
-    @screen md {
-        @apply my-6;
-    }
+@screen md {
+    @apply my-6;
+}
 }
 
 pre {
@@ -132,14 +149,33 @@ pre {
     @apply shadow;
     @apply overflow-x-auto;
 
-    & code {
-        @apply block;
-        @apply p-0;
-        @apply bg-transparent;
-    }
+&
+code {
+    @apply block;
+    @apply p-0;
+    @apply bg-transparent;
+}
+
 }
 
 ::selection {
     @apply text-white;
     @apply bg-pink-400;
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.pulse {
+    animation: pulse 1s infinite;
+}
+

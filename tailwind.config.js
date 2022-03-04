@@ -13,6 +13,9 @@ module.exports = {
             safelist: [/language/, /hljs/, /mce/],
         },
     },
+    plugins: [
+        require('tw-elements/dist/plugin')
+    ],
     theme: {
         extend: {
             fontFamily: {

@@ -2,6 +2,8 @@ window.axios = require('axios');
 import Vue from 'vue';
 import Search from './components/Search.vue';
 import hljs from 'highlight.js/lib/core.js';
+import 'tw-elements';
+
 require('@fortawesome/fontawesome-free/js/all')
 
 // Syntax highlighting
@@ -37,4 +39,15 @@ window.randomInt = (min, max) => {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+window.scrollToId = (id) => {
+    const e = document.getElementById(id);
+    e.classList.add('pulse')
+    e.scrollIntoView();
+    setTimeout(() => {
+        e.classList.remove('pulse')
+    }, 1000)
+
+
 }

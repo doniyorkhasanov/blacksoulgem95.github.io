@@ -38,6 +38,7 @@
         "tailwindcss": "^2.2.4",
         "touch": "^3.1.0",
         "ts-node": "^10.5.0",
+        "tw-elements": "^1.0.0-alpha11",
         "ulid": "^2.3.0",
         "valine": "^1.4.16",
         "vue": "^2.6.12",

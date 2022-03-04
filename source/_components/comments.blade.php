@@ -11,7 +11,8 @@
             appKey: 'AKj9dL9s6YzaIVW531YyxXhz',
             lang: 'en',
             serverURLs: 'https://y6ks0faj.api.lncldglobal.com',
-            avatar: 'robohash'
+            avatar: 'robohash',
+            placeholder: "Wow this is amazing!"
         })
     </script>
 @endpush

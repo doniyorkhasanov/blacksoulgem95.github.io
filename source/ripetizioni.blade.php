@@ -9,13 +9,13 @@ cover_image: /assets/img/ripetizioni.jpg
 
 @push('meta')
     <meta property="og:type" content="page"/>
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@blacksoulgem95" />
-    <meta name="twitter:creator" content="@blacksoulgem95" />
-    <meta name="twitter:title" content="{{$page->title}}" />
-    <meta name="twitter:description" content="{{$page->description}}" />
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@blacksoulgem95"/>
+    <meta name="twitter:creator" content="@blacksoulgem95"/>
+    <meta name="twitter:title" content="{{$page->title}}"/>
+    <meta name="twitter:description" content="{{$page->description}}"/>
 
-    <meta property="og:locale" content="{{$page->language}}" />
+    <meta property="og:locale" content="{{$page->language}}"/>
 
     @if ($page->cover_image)
         <meta property="og:image" content="{{$page->baseUrl.$page->cover_image}}"/>
@@ -53,14 +53,27 @@ cover_image: /assets/img/ripetizioni.jpg
             Zone Milano - Aprilia (LT) - Anzio (RM) - Nettuno (RM) oppure Online -
             €20 ad ora, con fattura e pagamenti digitali.
         </p>
-        <div class="text-xl flex justify-around w-full">
-            <div><a href="//go.italianprogrammer.pizza/cv" class="btn btn-pink">Curriculum</a></div>
-            <div><a href="#contatti" class="btn btn-pink">Contattami</a></div>
+        <div class="text-xl flex flex-col md:flex-row justify-center items-center gap-3 w-full">
+            <div><button onclick="window.open('//go.italianprogrammer.pizza/cv', '_blank')" class="btn btn-pink">Curriculum</button></div>
+            <div><button data-bs-toggle="modal" data-bs-target="#ripetizioni_m" class="btn btn-pink">Contattami</button></div>
         </div>
+        <a id="contatti"></a>
     </div>
 
-    <div class="mt-6 flex flex-col items-center justify-center">
-        <a id="contatti"></a>
-        <x-contact-ripetizioni></x-contact-ripetizioni>
+    <x-contact-ripetizioni id="ripetizioni_m"></x-contact-ripetizioni>
+
+{{--    <div class="mt-6 flex flex-col items-center justify-between gap-4">--}}
+{{--        <div id="contatti">--}}
+{{--            <x-contact-ripetizioni></x-contact-ripetizioni>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+
+    <div class="mt-28 flex flex-col items-center justify-between gap-4">
+
+
+        <div>
+            <h4 class="text-2xl">Recensioni</h4>
+            <x-comments></x-comments>
+        </div>
     </div>
 @endsection
