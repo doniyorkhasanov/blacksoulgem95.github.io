@@ -8,10 +8,8 @@ description: Get in touch with us
     <h1>Contact</h1>
 
     <div class="mb-12">
-        <div class="flex flex-wrap mb-6 -mx-3">
-            <div data-tf-widget="jXmLVN5z" data-tf-iframe-props="title=Contact Form - main" data-tf-medium="snippet"
-                 style="width:100%;height:80vh;"></div>
-            <script src="//embed.typeform.com/next/embed.js"></script>
+        <div class="flex flex-wrap mb-6 mx-3 justify-center">
+            <x-contact-form></x-contact-form>
         </div>
 
     </div>
