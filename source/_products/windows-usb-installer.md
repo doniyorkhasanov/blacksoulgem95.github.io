@@ -8,7 +8,7 @@ description: Windows USB Installation Media - ready for you with the latest imag
 featured: false
 language: en_GB
 ---
-<div id='product-component-1647357240428'></div>
+<div id='product-component-1647361820983'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -37,7 +37,7 @@ language: en_GB
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7081320841412',
-        node: document.getElementById('product-component-1647357240428'),
+        node: document.getElementById('product-component-1647361820983'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -48,6 +48,16 @@ language: en_GB
           "margin-left": "20px",
           "margin-bottom": "50px"
         }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#c5246b"
+        },
+        "background-color": "#db2877",
+        ":focus": {
+          "background-color": "#c5246b"
+        },
+        "border-radius": "15px"
       }
     },
     "text": {
@@ -77,6 +87,16 @@ language: en_GB
           "margin-left": "0px",
           "margin-bottom": "0px"
         }
+      },
+      "button": {
+        ":hover": {
+          "background-color": "#c5246b"
+        },
+        "background-color": "#db2877",
+        ":focus": {
+          "background-color": "#c5246b"
+        },
+        "border-radius": "15px"
       }
     },
     "text": {
@@ -85,12 +105,36 @@ language: en_GB
   },
   "option": {},
   "cart": {
+    "styles": {
+      "button": {
+        ":hover": {
+          "background-color": "#c5246b"
+        },
+        "background-color": "#db2877",
+        ":focus": {
+          "background-color": "#c5246b"
+        },
+        "border-radius": "15px"
+      }
+    },
     "text": {
       "total": "Subtotal",
       "button": "Checkout"
     }
   },
-  "toggle": {}
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "background-color": "#db2877",
+        ":hover": {
+          "background-color": "#c5246b"
+        },
+        ":focus": {
+          "background-color": "#c5246b"
+        }
+      }
+    }
+  }
 },
       });
     });
