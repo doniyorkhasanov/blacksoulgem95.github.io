@@ -1,5 +1,5 @@
 ---
-extends: _layouts.post
+extends: _layouts.product
 section: content
 title: Ubuntu USB Installation Media
 tags: [ubuntu,ubuntu desktop,ubuntu server,ubuntu usb,installer]
@@ -8,7 +8,9 @@ description: Ubuntu USB Installation Media - ready for you with the latest image
 featured: false
 language: en_GB
 ---
+<div class="flex flex-row justify-center">
 <div id='product-component-1647362241931'></div>
+</div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {

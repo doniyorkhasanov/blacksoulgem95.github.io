@@ -1,5 +1,5 @@
 ---
-extends: _layouts.post
+extends: _layouts.product
 section: content
 title: Windows USB Installation Media
 tags: [windows,windows 10,windows 11,windows usb,installer]
@@ -8,7 +8,9 @@ description: Windows USB Installation Media - ready for you with the latest imag
 featured: false
 language: en_GB
 ---
+<div class="flex flex-row justify-center">
 <div id='product-component-1647362161956'></div>
+</div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
