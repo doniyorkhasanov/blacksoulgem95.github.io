@@ -23,6 +23,13 @@
         </li>
         <li class="pl-4">
             <a
+                title="{{ $page->siteName }} Shop"
+                href="/shop"
+                class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/shop') ? 'active text-pink-500' : 'text-gray-800 hover:text-pink-500' }}"
+            >Shop</a>
+        </li>
+        <li class="pl-4">
+            <a
                 title="{{ $page->siteName }} Contact"
                 href="/contact"
                 class="block mt-0 mb-4 text-sm no-underline {{ $page->isActive('/contact') ? 'active text-pink-500' : 'text-gray-800 hover:text-pink-500' }}"

@@ -35,7 +35,22 @@ return [
         'socials' => [
             'sort' => 'order'
         ],
-        'redirects'
+        'redirects',
+        'products' => [
+            'sort' => '-date',
+            'path' => 'shop/products/{-title}'
+            ],
+
+        'shopcategories' => [
+            'sort' => '-date',
+            'path' => 'shop/collections/{-title}',
+            'products' => function ($page, $allPosts) {
+                return $allPosts->filter(function ($post) use ($page) {
+                    return $post->categories ? in_array($page->getFilename(), $post->categories, true) : false;
+                });
+            }
+        ],
+
     ],
 
     // helpers

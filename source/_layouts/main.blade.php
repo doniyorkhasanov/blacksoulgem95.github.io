@@ -94,5 +94,6 @@
 @stack('scripts')
 @include("_components.adsense")
 @include("_components.analytics.gtag")
+@include("_components.shopify")
 </body>
 </html>
