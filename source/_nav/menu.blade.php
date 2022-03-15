@@ -14,7 +14,7 @@
         Projects
     </a>
 
-    <a title="{{ $page->siteName }} Projects" href="/shop"
+    <a title="{{ $page->siteName }} Shop" href="/shop"
         class="ml-6 text-gray-700 hover:text-pink-600 {{ $page->isActive('/shop') ? 'active text-pink-600' : '' }}">
         Shop
     </a>
