@@ -8,7 +8,7 @@ description: Ubuntu USB Installation Media - ready for you with the latest image
 featured: false
 language: en_GB
 ---
-<div id='product-component-1647361765888'></div>
+<div id='product-component-1647362241931'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -37,7 +37,7 @@ language: en_GB
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7081330966724',
-        node: document.getElementById('product-component-1647361765888'),
+        node: document.getElementById('product-component-1647362241931'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -60,8 +60,12 @@ language: en_GB
         "border-radius": "15px"
       }
     },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
     "text": {
-      "button": "Add to cart"
+      "button": "View product"
     }
   },
   "productSet": {
@@ -142,7 +146,6 @@ language: en_GB
 })();
 /*]]>*/
 </script>
-
 
 Ubuntu USB Installation Media - ready for you with the latest image version available. Created on request.
 

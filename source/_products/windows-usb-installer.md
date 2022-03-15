@@ -8,7 +8,7 @@ description: Windows USB Installation Media - ready for you with the latest imag
 featured: false
 language: en_GB
 ---
-<div id='product-component-1647361820983'></div>
+<div id='product-component-1647362161956'></div>
 <script type="text/javascript">
 /*<![CDATA[*/
 (function () {
@@ -37,7 +37,7 @@ language: en_GB
     ShopifyBuy.UI.onReady(client).then(function (ui) {
       ui.createComponent('product', {
         id: '7081320841412',
-        node: document.getElementById('product-component-1647361820983'),
+        node: document.getElementById('product-component-1647362161956'),
         moneyFormat: '%E2%82%AC%7B%7Bamount_with_comma_separator%7D%7D',
         options: {
   "product": {
@@ -60,8 +60,12 @@ language: en_GB
         "border-radius": "15px"
       }
     },
+    "buttonDestination": "modal",
+    "contents": {
+      "options": false
+    },
     "text": {
-      "button": "Add to cart"
+      "button": "View product"
     }
   },
   "productSet": {
