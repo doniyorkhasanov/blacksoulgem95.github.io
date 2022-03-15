@@ -10,6 +10,14 @@ pagination:
 @section('body')
     <h1>Shop</h1>
 
+    <div class="mt-3 flex flex-wrap flex-row justify-start items-center gap-3">
+        @foreach($shopcategories as $category)
+        <div>
+        <a href="{{$category->getUrl()}}">{{$category->title}}</a>
+        </div>
+        @endforeach
+    </div>
+
     <hr class="border-b my-6">
 
 
