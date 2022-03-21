@@ -57,14 +57,6 @@ pagination:
         </nav>
     @endif
 
-    <div class="my-3">
-        <h3>Are you looking for a POS?</h3>
-        <p class="text-xl font-bold">Get paid your way with SumUp</p>
-        <p>The most affordable way to get paid, no matter where your business goes.</p>
-        <p>
-            <a href="//sumup.it/consulente/blacksoulgem95" class="btn btn-pink" target="_blank">Try SumUp</a>
-        </p>
-    </div>
     <hr class="border-b my-6">
 
     @include('_components.reso')
