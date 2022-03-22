@@ -54,3 +54,5 @@ happens: one company that makes mass-hiring of various figures and rents them to
 
 I wrote in the past an article that might help
 you [understand how to improve your employees' life](/2022/02/09/inclusive-policies-for-the-21st-century-workplace/).
+
+Because, if a job can't provide me with the security I need, why should I even bother losing my time for it?
