@@ -15,7 +15,7 @@ language: en_GB
 cover_image: /assets/img/01FYR9WEPZQQ2JS4NPQAFZ12HY/cover.png
 ---
 
-No one wants to work anymore - actually, no one ever wanted to.
+No one wants to work anymore - actually, no one ever wanted to lose their personal time for someone else's profit.
 
 We are seeing everywhere in the globe an actual crisis on finding workers, but why's that? Well, if you're asking
 yourself this question, you might be one of the problems.
