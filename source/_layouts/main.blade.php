@@ -62,7 +62,7 @@
 </main>
 
 <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
-    <ul class="flex flex-col md:flex-row justify-around list-none">
+    <ul class="flex flex-col md:flex-row justify-around list-none gap-2">
         <li>
             &copy; {{ date('Y') }} - Sofia Vicedomini.
         </li>
@@ -82,9 +82,20 @@
         </li>
 
         <li>
+            <a class="flex flex-col" href="{{$page->vultr}}" target="_blank">
+                <x-vultr-logo class="h-10"/>
+                Get $100 Credit on Vultr
+            </a>
+        </li>
+
+        <li>
             <div class="flex-col flex gap-2">
-                @include("_components.privacy-policy-button")
-                @include("_components.cookie-policy-button")
+                <div>
+                    <x-privacy-policy-button/>
+                </div>
+                <div>
+                    <x-cookie-policy-button/>
+                </div>
             </div>
         </li>
     </ul>
