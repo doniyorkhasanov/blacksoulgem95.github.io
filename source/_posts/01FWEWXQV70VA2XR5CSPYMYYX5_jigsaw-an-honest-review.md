@@ -23,7 +23,7 @@ this [GitHub repo](//github.com/blacksoulgem95/blacksoulgem95.github.io)!
 
 ## Use Cases
 
-So, Jigsaw is a fantastic tool to develop static website, but what are main usecases for a static website?
+So, Jigsaw is a fantastic tool to develop static website, but what are main use-cases for a static website?
 
 ### 1. Portfolio Websites
 
@@ -46,9 +46,9 @@ You can find even more examples at [Built with Jigsaw Website](//builtwithjigsaw
 
 ---
 
-I've been thinkering with Jigsaw for the whole weekend developing this website and get rid of the mess that my Wordpress
+I've been tinkering with Jigsaw for the whole weekend developing this website and get rid of the mess that my WordPress
 installation was, and it took me literally one day to get a blog site up and running with Jigsaw, and especially with a
-nice UI that Wordpress couldn't give me out of the box (or without learning how to develop WP Themes).
+nice UI that WordPress couldn't give me out of the box (or without learning how to develop WP Themes).
 
 Being based on Laravel Mix and Blade templates, jigsaw's learning curve is extremely flat, especially if you come from
 experience with [Laravel](//laravel.com?utm_source=italianprogrammer.pizza), and comes with a set of pre-made templates
@@ -61,7 +61,7 @@ Everything was ready out of the box to work properly in production, with little 
 (you'd just need to setup the base path for your url rewrites in the <code class="language-bash">
 config.production.php</code> file).
 
-The main hassle was developing a github workflows to deploy it properly, and now it works in this way:
+The main hassle was developing a GitHub workflows to deploy it properly, and now it works in this way:
 
 1. Commit & push to main branch your changes
 2. a on-push hook will trigger the deployment workflow
@@ -71,7 +71,7 @@ The main hassle was developing a github workflows to deploy it properly, and now
 
 GitHub is expecting a docs folder in the live branch to be used for the site hosting, hence it just works out.
 
-Also, is important to generate the CNAME file so that Github will not erase your custom domain settings at each
+Also, is important to generate the CNAME file so that GitHub will not erase your custom domain settings at each
 deployment.
 
 Summing up, this weekend working with Jigsaw was a pleasure, and I strongly suggest anyone thinking about building a
