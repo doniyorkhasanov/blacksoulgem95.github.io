@@ -38,19 +38,16 @@ cover_image: /assets/img/ripetizioni.jpg
 
         <p class="text-xl text-center">
             Mi chiamo Sofia, sviluppo software dalla tenera età di 13 anni. Sono una persona esperta nel mondo dello
-            sviluppo,
-            vivendo sia in Italia che in Scozia, apprezzata da diverse aziende globali per cui ho lavorato
+            sviluppo, vivendo sia in Italia che in Scozia, apprezzata da diverse aziende globali per cui ho lavorato
             (Sky, Kaleyra, NCTech, ContactLab e altre). Impartisco lezioni di Inglese, Programmazione e Informatica
-            teorica
-            a studenti delle Superiori, che sia ITIS o Scientifico, con me sarete sempre avanti col programma!
+            teorica a studenti delle Superiori, che sia ITIS o Scientifico, con me sarete sempre avanti col programma!
         </p>
         <p class="text-xl text-center">
             Uso un metodo di insegnamento pratico, quindi avrai bisogno di un computer configurato per poter eseguire
-            gli esercizi -
-            nelle prime lezioni posso aiutarti a configurarlo.
+            gli esercizi -  nelle prime lezioni posso aiutarti a configurarlo.
         </p>
         <p class="text-xl text-center">
-            Zone Milano - Aprilia (LT) - Anzio (RM) - Nettuno (RM) oppure Online -
+            Zone Milano - Pioltello (MI) - Cassina de Pecchi (MI) - Melzo (MI) oppure Online -
             €20 ad ora, con fattura e pagamenti digitali.
         </p>
         <div class="text-xl flex flex-col md:flex-row justify-center items-center gap-3 w-full">
