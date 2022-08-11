@@ -30,7 +30,7 @@ cover_image: /assets/img/ripetizioni.jpg
         <h1 class="md:text-6xl font-light leading-none mb-2">Ripetizioni</h1>
 
         {{--        <h2 class="text-3xl">Informatica, Sistemi, Inglese, Programazione.</h2>--}}
-        <h2 class="text-3xl text-center">Lead Software Developer impartisce lezioni di Informatica teorica,
+        <h2 class="text-3xl text-center">Engineering Manager impartisce lezioni di Informatica teorica,
             Programmazione (Java / C / Javascript /
             PHP) e Inglese.</h2>
 
