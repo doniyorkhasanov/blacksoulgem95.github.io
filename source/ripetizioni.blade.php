@@ -47,7 +47,7 @@ cover_image: /assets/img/ripetizioni.jpg
             gli esercizi -  nelle prime lezioni posso aiutarti a configurarlo.
         </p>
         <p class="text-xl text-center">
-            Zone Milano - Pioltello (MI) - Cassina de Pecchi (MI) - Melzo (MI) oppure Online -
+            Zone Milano - Pioltello (MI) - Settala (MI) - Melzo (MI) oppure Online -
             €20 ad ora, con fattura e pagamenti digitali.
         </p>
         <div class="text-xl flex flex-col md:flex-row justify-center items-center gap-3 w-full">
