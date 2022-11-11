@@ -16,13 +16,13 @@ cover_image: /assets/img/01GHKA8BMJ8ZAN4MZFWHHXMHXG/cover.jpg
 ---
 As a person who has spent years in the startup environment, and in the investment to public and private companies market, I wanted to share with you my perspective of what's happening.
 
-Which, by the way, might be completely wrong - as MacroEconomics is not a fixed science.
+Which, by the way, might be completely wrong - as Macro Economics is not a fixed science.
 
 2020 - the raw-uncooked-bat flu shaked the world. SARS-Cov-19 was (and still is in a way) a dangerous disease that spread through the globe in a record breaking way. Companies had to figure out a way to be productive without having workers into buildings. The buildings they bought as an investment.
 
 People started to work remotely, from home, no one went out if not for basic necessities, and the market of social networks and communications went high: a bubble started.
 
-With the need of socialising digitally and connect with people through digital ways, companies in the communications market (yes, this includes us) had a spike in user/customer base and market value.
+With the need of socialising digitally and connect with people through digital ways, companies in the communications market had a spike in user/customer base and market value.
 
 Investors started to put money in any company that promised help into remote working and remote socialising.
 
@@ -36,7 +36,7 @@ Everyone was hyped about this new way of connecting to people, until this year: 
 
 People gradually lost interest in socialising through a computer and came back to meet in pubs, restaurants and social spaces telling us one truth: humans need the physical human warmth - socialising digitally can't replace that.
 
-Interest in the metaverse? Gone, same all the investments. Social networks, Streaming Media Companies, Communcations Companies, who had a spike in usebase, are now losing users. The "Fully Remote" bubble has bursted.
+Interest in the metaverse? Gone, same all the investments. Social networks, Streaming Media Companies, Communications Companies, who had a spike in userbase, are now losing users. The "Fully Remote" bubble has bursted.
 
 ## What companies are going bad?
 
@@ -44,20 +44,20 @@ the User 2 User focused companies, like Meta (FB, IG, WA), Google, Twitter, Snap
 
 ## What companies are caught in the downfall even if they're actually doing okay?
 
-Business 2 Customer companies, like Kaleyra, Twilio, etc, are caught in the wave of panic towards the communications industry, even tho we are doing okay financially. Banks still needs to contact remotely their users. Food Delivery still needs to send SMSs. OTPs are a hardcore standard in multi-factor authentication security.
+Business 2 Customer companies, like Kaleyra, Twilio, etc, are caught in the wave of panic towards the communications industry, even tho are doing okay financially. Banks still needs to contact remotely their users. Food Delivery still needs to send SMSs. OTPs are a hardcore standard in multi-factor authentication security.
 
-This is also exactly why Elon's doing what he's doin to Twitter: transform the (free) user into a paying customer, through subscription services - in order to recover it's ad-revenue loss and move towards a more sustainable way of financing the company.
+This is also exactly why Elon's doing what he's doing to Twitter: transform the (free) user into a paying customer, through subscription services - in order to recover it's ad-revenue loss and move towards a more sustainable way of financing the company.
 
 We definetly learnt through this bubble that ad-revenue based companies are not sustainable, and heavily susceptible to almost anything in the real world.
 
 ## What I see (most probably just wish) will take over the web in the next future
-I saw the Internet being born, when older (than me) people thought it was just a nerd thingy will disapper soon ( the dot com bubble ) - but now every industry is dependant on this technology.
+I saw the Internet being born, when older (than me) people thought it was just a nerd thingy will disapper soon (the dot com bubble) - but now every industry is dependant on this technology.
 
 Internet was originally born as a place of freedom, where everyone can have their spaces and communicate with other people, with a sort of federated systems, such as e-mails.
 
-With Google, Virgilio and Tiscali in Italy, AOL and Yahoo in the US, Amazon globally and many more, Internet became service-centered.
+With Virgilio and Tiscali in Italy, AOL and Yahoo in the US, Google and Amazon globally and many more, Internet became service-centered.
 
-Now, people instead are moving towards places like Mastodon, a federated social network using the ActivityPub standard to interact with other instances. You chose where your data is and who manages it (you can actually DIY if you have the time and resources) and interact with any user from any place. (PS. if you're interested in joining Mastodon, hit me up, I run an instance)
+Now, people instead are moving towards places like Mastodon, a federated social network using the ActivityPub standard to interact with other instances. You chose where your data is and who manages it (you can actually DIY if you have the time and resources) and interact with any user from any place. (PS. if you're interested in joining Mastodon, [we run our own instance](https://pwbsoft.gay))
 
 I envision a future where privacy starts to become more valued, and where people will slowly switch to what Tim Berners-Lee, inventor of World Wide Web in 1989, envisioned his creation would've been: a [federated system of knowledge and information sharing](https://solidproject.org/).
 
