@@ -4,6 +4,7 @@
         "postinstall": "composer install",
         "dev": "mix",
         "watch": "mix watch",
+        "serve": "./vendor/bin/jigsaw serve",
         "prod": "mix --production",
         "new:post": "node new_post.mjs",
         "new:category": "node new_category.mjs"

@@ -83,8 +83,7 @@
 
         <li>
             <a class="flex flex-col" href="{{$page->vultr}}" target="_blank">
-                <x-vultr-logo class="h-10"/>
-                Get $100 Credit on Vultr
+                <x-stickermule class="h-10"/>
             </a>
         </li>
 
