@@ -1,0 +1,1 @@
+<script id="help-ukraine-win" async="true" src="https://helpukrainewinwidget.org/cdn/widget.js?type=one&position=bottom-left&layout=main"></script>

@@ -99,7 +99,7 @@
         </li>
     </ul>
 </footer>
-
+<x-ukraine/>
 <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 @stack('scripts')
 @include("_components.adsense")
